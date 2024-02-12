@@ -45,6 +45,9 @@ input[type="checkbox"]:focus {
   --bs-bg-opacity: .2;
 }
 
+.color-black {
+  color: black !important;
+}
 .botao-padrao {
   background: var(--marrom-claro);
 }
@@ -52,3 +55,29 @@ input[type="checkbox"]:focus {
 .botao-padrao:hover {
   background: var(--marrom-escuro);
 }
+
+.input-range::-webkit-slider-thumb,
+footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"].nav-link, .card-body, .offcanvas, .accordion, .btn {
+  color: white !important;
+ 
+}
+
+.mt-custom {
+  margin-top: 13%;
+}
+/*em sas */
+/* 
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+  --bs-nav-link-color: white;
+  --bs-card-color: white;
+  --bs-offcanvas-color: white;
+  --bs-body-color: white;
+  --bs-body-color: white;
+  }
+  } */
